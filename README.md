@@ -5,6 +5,10 @@ It combines an **AI-powered backend**, a modern **React + TypeScript frontend**,
 
 ---
 
+# 🚀 Live App
+
+👉 **Web App:** https://yaadein-web-app-pamc.vercel.app/
+
 ## ✨ Features
 
 ### 👨‍👩‍👧 Family Collaboration
