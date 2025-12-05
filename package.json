@@ -1,17 +1,20 @@
 {
-  "type": "module",
+  "type": "commonjs",
   "name": "yaadein-ai-backend",
   "version": "1.0.0",
   "description": "Intelligent photo tagging and memory management system backend",
   "main": "dist/index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "vite",
-    "build": "tsc",
-    "lint": "eslint . --ext .ts",
-    "test": "jest",
-    "seed": "ts-node src/scripts/seed.ts"
-  },
+  "start": "node dist/index.js",        
+  "dev": "vite",                        
+  "build": "vite build",                  
+  "build:types": "tsc --noEmit",         
+  "build:server": "tsc",                  
+  "lint": "eslint . --ext .ts,.tsx",
+  "test": "jest",
+  "seed": "ts-node src/scripts/seed.ts"
+},
+
   "keywords": [
     "ai",
     "image-analysis",
